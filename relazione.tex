@@ -1,0 +1,48 @@
+\documentclass[a4paper, 12pt]{report}
+
+\usepackage[a4paper, top=2.5cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+
+\usepackage{verbatim}
+
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.png}
+
+\begin{document}
+\thispagestyle{empty}
+%PRIMA PAGINA
+ \begin{flushright}
+  \LARGE{\textbf{Studente:} Nome Cognome} \\
+  \LARGE{\textbf{Matricola:} N.matricola}
+ \end{flushright}
+ \vspace{6cm}
+ \begin{center}
+  \upshape{\huge {Nome del corso} \\
+   \LARGE{Titolo del progetto}}
+ \end{center}
+ \vspace{9cm}
+ \begin{flushright}
+  \LARGE{\textbf{Docente:} Prof. Dummy Name}
+ \end{flushright}
+ \vspace{2cm}
+ \begin{center}
+ Questa relazione è stata preparata utilizzando \LaTeX
+ \end{center}
+ %
+ %Sezione 
+ \part* {\textit {Sezione}}
+ \subsection*{SEZIONE}
+ \vspace{0.5cm}
+ Testo...
+  \vspace{1cm}
+   \begin{figure}[htbp]
+    \centering
+    \includegraphics[keepaspectratio]{img/dummy}
+    \caption{Dummy caption}
+   \end{figure}
+   \vspace{3cm}
+  
+  
+\end{document}
